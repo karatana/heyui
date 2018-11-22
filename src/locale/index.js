@@ -1,5 +1,6 @@
 import zhLang from './lang/zh-CN';
 import enLang from './lang/en-US';
+import jaLang from './lang/ja-JP';
 import utils from '../utils/utils';
 import Format from '../utils/format';
 
@@ -7,7 +8,8 @@ const format = Format();
 let lang = zhLang;
 const langs = {
   zh: zhLang,
-  en: enLang
+  en: enLang,
+  ja: jaLang
 }
 let nowLang = null;
 let merged = {};
